@@ -7,5 +7,13 @@
 Console.WriteLine("Введите трехзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int digit2 = number % 100 / 10;
-Console.WriteLine(digit2);
+if(number < 100 || number > 999)
+{
+    Console.WriteLine("Неверный ввод");
+}
+
+else 
+{
+    int digit2 = number % 100 / 10;
+    Console.WriteLine(digit2);
+}
