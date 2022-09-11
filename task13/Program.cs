@@ -7,11 +7,5 @@
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-while 
-{
-
-
-}
-int digit3 = number % 1000 / 10;
-
-
+Console.WriteLine(number>99 ? number.ToString()[2] : '-');
+Console.ReadKey(true);
